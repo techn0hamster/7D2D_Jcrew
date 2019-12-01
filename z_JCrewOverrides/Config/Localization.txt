@@ -1,0 +1,18 @@
+﻿Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+M4A1MiahDesc,items,Ammo,New,This patriotic Yeeee Yee M4A1 Machine Gun uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Machine Gun Parts.,,,,,
+
+JCrewSR25Desc,items,Ammo,New,SR25 uses 7.62mm ammo.\n\nRepair with a Repair Kit.\nScrap to Machine Gun Parts.,,,,,
+
+meleeKatanaSword,items,Melee,New,Survivor's Katana,,,,,
+meleeKatanaSwordDesc,items,Melee,New,"Based off the famous Japanese Katana. Though not the same quality, it can compete with it fairly well!\n\nHas a base 10% base chance to dismember limbs and harvests a little better.\n\nRepair with Repair Kits.",,,,,
+meleeTantoKnife,items,Melee,New,Tanto,,,,,
+meleeTantoKnifeDesc,items,Melee,New,"A Tanto was a very common knife for the Japanese. It never failed them and was of the upmost top quality of blades.\n\nHas a base 10% base chance to dismember limbs and harvests a little better.\n\nRepair with Forged Steel." ,,,,,
+
+
+
+partsKatanaBlade,items,Part,New,Katana Blade,,,,,
+partsKatanaHandle,items,Part,New,Katana Handle,,,,,
+partsKatanaSpacer,items,Part,New,Katana Spacer,,,,,
+perkHammerForgeRank3Desc,progression,Perk,New,At a workbench you can craft Iron Armor and the Tanto. You can also craft a crucible to craft Forged Steel.,,,,,
+perkHammerForgeRank5Desc,progression,Perk,New,You can craft military grade, steel armor and the Survivors Katana.,,,,,
