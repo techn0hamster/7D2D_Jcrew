@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	
+	<append xpath="/materials">
+<material id="MCountryFarmland">
+	<property name="damage_category" value="earth"/>
+	<property name="surface_category" value="earth"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="dirt"/>
+	<property name="fertile_level" value="30"/>
+	<property name="stability_glue" value="20"/>
+	<property name="Mass" type="int" value="10"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Experience" value="500"/>
+</material>
+
+</append>
+
+</configs>
+
+
+

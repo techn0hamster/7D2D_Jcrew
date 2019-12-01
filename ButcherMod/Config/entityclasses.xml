@@ -1,0 +1,363 @@
+<configs>
+
+ 
+                                    <!--Animals-->
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='resourceAnimalFat']"/>
+	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalBossGrace']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalBossGrace']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalBossGrace']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalBossGrace']/drop[@name='resourceAnimalFat']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='resourceAnimalFat']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='resourceAnimalFat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='resourceFeather']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='resourceAnimalFat']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='resourceAnimalFat']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='resourceAnimalFat']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='resourceAnimalFat']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='resourceAnimalFat']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='resourceAnimalFat']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@name='resourceAnimalFat']"/>	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@name='resourceLeather']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@name='resourceAnimalFat']"/>	
+	
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='foodRottingFlesh']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='resourceLeather']"/>	
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='resourceAnimalFat']"/>	
+
+<!-- Base Game Removal -->
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='foodRawMeat']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='foodRottingFlesh']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='resourceBone']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='resourceLeather']"/>	
+	<remove xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='resourceAnimalFat']"/>	
+
+
+<!-- Adding New Items To -->
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalBoar')]">
+		<!-- Boar Variables -->
+	    <drop event="Harvest" name="Raw Intestines" tag="butcherHarvest" count="1,12"/> 
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>
+	    <drop event="Harvest" name="Pure Animal Milk" tag="butcherHarvest" count="4,8"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,80"/>		
+	    <!-- Boar Harvesting -->
+	    <drop event="Destroy" name="Raw Animal Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Raw Ribs" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Raw Hunk Of Meat" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Raw Boars Feet" tag="butcherHarvest" count="1"/>	
+	    <drop event="Destroy" name="Boar Skin" tag="butcherHarvest" count="1"/>	
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalBossGrace')]">
+		<!-- Grace Variables -->
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>
+	    <drop event="Harvest" name="Pure Animal Milk" tag="butcherHarvest" count="4,8"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,200"/>		
+	    <!-- Grace Harvesting -->
+	    <drop event="Destroy" name="Raw Animal Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Raw Ribs" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Raw Hunk Of Meat" tag="butcherHarvest" count="2"/>
+    	<drop event="Destroy" name="Raw Boars Feet" tag="butcherHarvest" count="1"/>	
+	    <drop event="Destroy" name="Boar Skin" tag="butcherHarvest" count="1"/>	
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalBear')]">
+		<!-- Bear Variables -->
+	    <drop event="Harvest" name="Raw Intestines" tag="butcherHarvest" count="1,12"/> 
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,175"/>
+	    <drop event="Harvest" name="Pure Animal Milk" tag="butcherHarvest" count="10,25"/>		
+	    <!-- Bear Harvesting -->
+	    <drop event="Destroy" name="Raw Animal Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Large Raw Animal Meat" tag="butcherHarvest" count="4"/>
+	    <drop event="Destroy" name="Raw Hunk Of Meat" tag="butcherHarvest" count="2,6"/>
+     	<drop event="Destroy" name="Bear Skin" tag="butcherHarvest" count="1"/>	
+	    <drop event="Destroy" name="resourceTestosteroneExtract" tag="butcherHarvest" count="1,3"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalChicken')]">
+		<!-- Chicken Harvesting -->
+	    <drop event="Destroy" name="Raw Chicken Wings" tag="butcherHarvest" count="1"/>
+	    <drop event="Destroy" name="Raw Chicken Leg" tag="butcherHarvest" count="1"/>
+	    <drop event="Destroy" name="Raw Chicken Breast" tag="butcherHarvest" count="1,2"/>
+	    <drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="25,50"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalDireWolf')]">
+		<!-- Direwolf Variables -->
+	    <drop event="Harvest" name="Raw Intestines" tag="butcherHarvest" count="1,12"/> 
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,100"/>	
+	    <drop event="Harvest" name="Pure Animal Milk" tag="butcherHarvest" count="4,8"/>		
+	    <!-- Direwolf Harvesting -->
+	    <drop event="Destroy" name="Raw Animal Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Large Raw Animal Meat" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Direwolf Skin" tag="butcherHarvest" count="1"/>	
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalDoe')]">
+		<!-- Deer and Stag Variables -->
+	    <drop event="Harvest" name="Raw Intestines" tag="butcherHarvest" count="1,12"/> 
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="25,50"/>		
+	    <drop event="Harvest" name="Pure Animal Milk" tag="butcherHarvest" count="4,8"/>	<!-- Doe gets Milk -->
+	    <!-- Butcher Mod Harvesting -->
+	    <drop event="Destroy" name="Raw Animal Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Small Raw Animal Meat" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Raw Hunk Of Meat" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Deer Skin" tag="butcherHarvest" count="1"/>	
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalRabbit')]">
+		<!-- Rabbit Variables -->
+	    <drop event="Harvest" name="Raw Intestines" tag="butcherHarvest" count="1,12"/> 
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,25"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="2,3"/>	
+	    <!-- Rabbit Harvesting -->
+	    <drop event="Destroy" name="Raw Rabbit Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Raw Rabbit Body" tag="butcherHarvest" count="1"/>
+	    <drop event="Destroy" name="Rabbit Skin" tag="butcherHarvest" count="1"/>	
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalSnake')]">
+		<!-- Snake Variables -->
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,25"/>	
+	    <!-- Snake Harvesting -->
+	    <drop event="Destroy" name="Raw Snake Eggs" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Destroy" name="Raw Snake Meat" tag="butcherHarvest" count="1"/>
+	    <drop event="Destroy" name="Snake Skin" tag="butcherHarvest" count="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalStag')]">
+		<!-- Deer and Stag Variables -->
+	    <drop event="Harvest" name="Raw Intestines" tag="butcherHarvest" count="1,12"/> 
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="25,50"/>		
+	    <drop event="Harvest" name="Pure Animal Milk" tag="butcherHarvest" count="4,8"/>	<!-- Doe gets Milk -->
+	    <!-- Butcher Mod Harvesting -->
+	    <drop event="Destroy" name="Raw Animal Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Small Raw Animal Meat" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Raw Hunk Of Meat" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Deer Skin" tag="butcherHarvest" count="1"/>	
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalWolf')]">
+		<!-- Wolf Variables -->
+	    <drop event="Harvest" name="Raw Intestines" tag="butcherHarvest" count="1,12"/> 
+     	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,80"/>
+	    <drop event="Harvest" name="Pure Animal Milk" tag="butcherHarvest" count="4,8"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,80"/>		
+	    <!-- Wolf Harvesting -->
+	    <drop event="Destroy" name="Raw Animal Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Small Raw Animal Meat" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Wolf Skin" tag="butcherHarvest" count="1"/>	
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalCoyote')]">
+		<!-- Coyote Variables -->
+	    <drop event="Harvest" name="Raw Intestines" tag="butcherHarvest" count="1,12"/> 
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,80"/>	
+     	<drop event="Harvest" name="Pure Animal Milk" tag="butcherHarvest" count="4,8"/>	
+     	<!-- Coyote Harvesting -->
+	    <drop event="Destroy" name="Raw Animal Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Small Raw Animal Meat" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Coyote Skin" tag="butcherHarvest" count="1"/>	
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalMountainLion')]">
+		<!-- Lion Variables -->
+	    <drop event="Harvest" name="Raw Intestines" tag="butcherHarvest" count="1,12"/> 
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,100"/>	
+	    <drop event="Harvest" name="Pure Animal Milk" tag="butcherHarvest" count="4,8"/>		
+	    <!-- Lion Harvesting -->
+	    <drop event="Destroy" name="Raw Animal Leg" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Small Raw Animal Meat" tag="butcherHarvest" count="2"/>
+	    <drop event="Destroy" name="Lion Skin" tag="butcherHarvest" count="1"/>		
+	</append>
+	
+	                                <!-- Zombie Animals -->								
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalZombieBear')]">
+		<!-- Zombie Bear Variables -->
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,175"/>
+	    <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="10,100"/>			
+	    <!-- Zombie Bear Harvesting -->
+	    <drop event="Destroy" name="Bear Skin" tag="butcherHarvest" count="1"/>	
+	    <drop event="Destroy" name="resourceTestosteroneExtract" tag="butcherHarvest" count="1,3"/>	
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalZombieDog')]">
+		<!-- Zombie Dog Variables -->
+	    <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2,4"/>
+	    <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10,30"/>	
+	    <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,10"/>	
+	    <drop event="Harvest" name="Animal Poop" tag="butcherHarvest" count="45,175"/>				
+	    <!-- Zombie Dog Harvesting -->
+	    <drop event="Destroy" name="Coyote Skin" tag="butcherHarvest" count="1"/>	
+	</append>
+
+				<!-- Zombies loot -->
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombieFatCop')]">
+		<!-- Boar Variables -->
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<!-- Zombie Cop System -->
+		<drop event="Harvest" name="7.62 Ammo Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+		<drop event="Harvest" name="9mm Ammo Box" tag="butcherHarvest" count="1,2" prob="0.75"/> 
+		<drop event="Harvest" name="44 Calibur Ammo Box" tag="butcherHarvest" count="1" prob="0.5"/> 
+		<drop event="Harvest" name="Shell Box" tag="butcherHarvest" count="1" prob="0.35"/> 
+		<drop event="Harvest" name="Slug Box" tag="butcherHarvest" count="1" prob="0"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombieFatCopFeral')]">
+		<!-- Boar Variables -->
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<!-- Zombie Cop System -->
+		<drop event="Harvest" name="7.62 Ammo Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+		<drop event="Harvest" name="9mm Ammo Box" tag="butcherHarvest" count="1,2" prob="0.75"/> 
+		<drop event="Harvest" name="44 Calibur Ammo Box" tag="butcherHarvest" count="1" prob="0.5"/> 
+		<drop event="Harvest" name="Shell Box" tag="butcherHarvest" count="1" prob="0.35"/> 
+		<drop event="Harvest" name="Slug Box" tag="butcherHarvest" count="1" prob="0"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombieFatCopRadiated')]">
+		<!-- Boar Variables -->
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<!-- Zombie Cop System -->
+		<drop event="Harvest" name="7.62 Ammo Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+		<drop event="Harvest" name="9mm Ammo Box" tag="butcherHarvest" count="1,2" prob="0.75"/> 
+		<drop event="Harvest" name="44 Calibur Ammo Box" tag="butcherHarvest" count="1" prob="0.5"/> 
+		<drop event="Harvest" name="Shell Box" tag="butcherHarvest" count="1" prob="0.35"/> 
+		<drop event="Harvest" name="Slug Box" tag="butcherHarvest" count="1" prob="0"/> 
+	</append>
+
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombieSoldier')]">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+									<!-- Zombie Military System -->
+		<drop event="Harvest" name="7.62 Ammo Box" tag="butcherHarvest" count="1,5" prob="0.75"/> 
+		<drop event="Harvest" name="9mm Ammo Box" tag="butcherHarvest" count="1,2" prob="0.25"/> 
+		<drop event="Harvest" name="44 Calibur Ammo Box" tag="butcherHarvest" count="1" prob="0"/> 
+		<drop event="Harvest" name="Shell Box" tag="butcherHarvest" count="1" prob="0"/> 
+		<drop event="Harvest" name="Slug Box" tag="butcherHarvest" count="1" prob="0"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombieSoldierFeral')]">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+									<!-- Zombie Military System -->
+		<drop event="Harvest" name="7.62 Ammo Box" tag="butcherHarvest" count="1,5" prob="0.75"/> 
+		<drop event="Harvest" name="9mm Ammo Box" tag="butcherHarvest" count="1,2" prob="0.25"/> 
+		<drop event="Harvest" name="44 Calibur Ammo Box" tag="butcherHarvest" count="1" prob="0"/> 
+		<drop event="Harvest" name="Shell Box" tag="butcherHarvest" count="1" prob="0"/> 
+		<drop event="Harvest" name="Slug Box" tag="butcherHarvest" count="1" prob="0"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombieSoldierRadiated')]">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+									<!-- Zombie Military System -->
+		<drop event="Harvest" name="7.62 Ammo Box" tag="butcherHarvest" count="1,5" prob="0.75"/> 
+		<drop event="Harvest" name="9mm Ammo Box" tag="butcherHarvest" count="1,2" prob="0.25"/> 
+		<drop event="Harvest" name="44 Calibur Ammo Box" tag="butcherHarvest" count="1" prob="0"/> 
+		<drop event="Harvest" name="Shell Box" tag="butcherHarvest" count="1" prob="0"/> 
+		<drop event="Harvest" name="Slug Box" tag="butcherHarvest" count="1" prob="0"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombieOldTimer')]">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+									<!-- Zombie Cowboy System -->
+		<drop event="Harvest" name="7.62 Ammo Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+		<drop event="Harvest" name="9mm Ammo Box" tag="butcherHarvest" count="1" prob="0.5"/> 
+		<drop event="Harvest" name="44 Calibur Ammo Box" tag="butcherHarvest" count="1,3" prob="0.75"/> 
+		<drop event="Harvest" name="Shell Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+		<drop event="Harvest" name="Slug Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombieOldTimerFeral')]">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+									<!-- Zombie Cowboy System -->
+		<drop event="Harvest" name="7.62 Ammo Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+		<drop event="Harvest" name="9mm Ammo Box" tag="butcherHarvest" count="1" prob="0.5"/> 
+		<drop event="Harvest" name="44 Calibur Ammo Box" tag="butcherHarvest" count="1,3" prob="0.75"/> 
+		<drop event="Harvest" name="Shell Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+		<drop event="Harvest" name="Slug Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombieOldTimerRadiated')]">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+									<!-- Zombie Cowboy System -->
+		<drop event="Harvest" name="7.62 Ammo Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+		<drop event="Harvest" name="9mm Ammo Box" tag="butcherHarvest" count="1" prob="0.5"/> 
+		<drop event="Harvest" name="44 Calibur Ammo Box" tag="butcherHarvest" count="1,3" prob="0.75"/> 
+		<drop event="Harvest" name="Shell Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+		<drop event="Harvest" name="Slug Box" tag="butcherHarvest" count="1" prob="0.25"/> 
+	</append>
+
+
+
+
+
+
+
+</configs>
+
+
+	

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<set xpath="vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">5,10</set>
+		<set xpath="vehicles/vehicle[@name='vehicleBicycle']/property[@name='motorTorqueMinQ']/@value">1000</set>
+		<set xpath="vehicles/vehicle[@name='vehicleBicycle']/property[@name='motorTorqueMaxQ']/@value">2000</set>
+		<set xpath="vehicles/vehicle[@name='vehicleBicycle']/property[@name='hopForce']/@value">6</set>
+
+	<set xpath="vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax']/@value">7,11</set>
+
+	<set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">14,22</set>
+		<set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='motorTorqueMinQ']/@value">4000</set>
+		<set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='motorTorqueMaxQ']/@value">5000</set>
+		<set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='tiltDampening']/@value">.65</set>
+		<set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='tiltUpForce']/@value">8</set>
+
+	<set xpath="vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">12,18</set>
+		<set xpath="vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='motorTorqueMinQ']/@value">5000</set>
+		<set xpath="vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='motorTorqueMaxQ']/@value">8000</set>
+
+	<set xpath="vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax']/@value">10,16</set>
+
+</configs>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">9,2</set>
+<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">9,4</set>
+<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">9,6</set>
+<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">9,10</set>
+<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">9,6</set>
+</configs>

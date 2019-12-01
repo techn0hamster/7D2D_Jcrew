@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+<!--/lootcontainers/lootgroup -->
+<append xpath="/lootcontainers">
+<!-- Iced Box -->
+<lootgroup name="FoodAlcoholMod">
+	<item name="High Quality Beer" prob="0.15"/>
+	<item name="Burban" prob="0.005"/>
+	<item name="Whiskey" prob="0.005"/>
+	<item name="Gin" prob="0.005"/>
+	<item name="Wine" prob="0.10"/>
+	<item name="Hard Cider" prob="0.005"/>
+	<item name="Absinthe" prob="0.001"/>
+	<item name="Rum" prob="0.005"/>
+</lootgroup>
+
+<lootgroup name="FoodDrinkMod">
+	<item name="Apple Juice"/>
+	<item name="Grape Juice"/>
+	<item name="Orange Juice"/>
+	<item name="Lemonade"/>
+</lootgroup>
+
+<lootgroup name="JunkFoodMod">
+	<item name="Cheese N Crackers" prob="0.05"/>
+	<item name="Chocolate Bar" prob="0.05"/>
+	<item name="Protein Bar" prob="0.005"/>
+	<item name="Health Bar" prob="0.001"/>
+	<item name="Granola Bar" prob="0.005"/>
+</lootgroup>
+
+
+<lootgroup name="FrozenFoodMod">
+	<item name="TV Dinner"/>
+	<item name="Frozen Hotdog"/>
+	<item name="Frozen Burgers"/>
+</lootgroup>
+
+<lootgroup name="NewCannedFood"> <!-- Cabinet -->
+		<!-- Base Game -->
+	<!-- Tier 3 -->
+	<item name="foodCanBeef" prob="0.05"/>
+	<item name="foodCanChicken" prob="0.05"/>
+	<item name="foodCanLamb" prob="0.05"/>
+	<item name="foodCanSham" prob="0.05"/>	
+	<item name="foodCanChili" prob="0.05"/>	
+	<item name="foodCanSalmon" prob="0.05"/>	
+	<item name="foodCanPasta" prob="0.05"/>	
+	<!-- Tier 2 -->
+	<item name="foodCanDogfood" prob="0.07"/>	
+	<item name="foodCanPeas" prob="0.07"/>
+	<item name="foodCanPears" prob="0.07"/>	
+	<!-- Tier 1 -->	
+	<item name="foodCanCatfood" prob="0.09"/>
+	<item name="foodCanTuna" prob="0.09"/>
+	<item name="foodCanMiso" prob="0.09"/>
+	<item name="foodCanSoup" prob="0.09"/>
+	<item name="foodCanStock" prob="0.09"/>
+		<!-- New Canned -->
+	<item name="Canned Corn" prob="0.05"/>
+	<item name="Canned Chicken Breast" prob="0.05"/>
+	<item name="Canned Sardine" prob="0.05"/>
+	<item name="Canned Vienna Sausage" prob="0.05"/>
+</lootgroup>
+
+<lootgroup name="EmptyStoreShelf">
+	<item name="drinkCanEmpty" count="0,2"/>
+	<item name="resourceScrapPolymers" count="0,3"/>
+	<item name="resourcePaper" count="0,3"/>
+</lootgroup>
+
+<lootgroup name="MilitaryToolAid">
+<!--
+	<item name="Pittsburgh Hand Axe" count="0,1" prob="0.05"/>
+	<item name="Pittsburgh Pickaxe" count="0,1" prob="0.05"/>
+	<item name="Pittsburgh Butcher Knife" count="0,1" prob="0.05"/>
+	<item name="Pittsburgh Machete" count="0,1" prob="0.05"/>
+	
+	-->
+	<item name="resourceRepairKit" count="1,10" prob="0.50"/>	
+</lootgroup>
+
+<lootgroup name="MilitaryMedAid">
+	<item name="medicalFirstAidKit" count="1,3"/>
+	<item name="drugVitamins" count="1,3"/>
+	<item name="drugPainkillers" count="0,5"/>
+	<item name="drugAntibiotics" count="1,3"/>
+	<item name="medicalFirstAidBandage" count="1,3"/>
+	<item name="medicalBandage" count="1,3"/>
+</lootgroup>
+
+<!-- Cooler -->
+<lootcontainer id="225" count="1,3" size="5,5" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualBaseTemplate">
+	<item group="FoodAlcoholMod" prob="0.050" />
+	<item group="FoodDrinkMod" prob="0.25"/>
+	<item group="FrozenFoodMod" prob="0.05"/>	
+	<item name="Ice Bags" count="1,5" prob="0.25"/>
+</lootcontainer>	
+
+<!-- Zombie Bags -->
+<lootcontainer id="226" count="1,3" size="5,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate">
+	<item group="MilitaryToolAid" prob="0.15"/>	
+	<item group="MilitaryMedAid" prob="0.15"/>	
+</lootcontainer>	
+
+<!-- Store Shelf & Food Piles -->
+<lootcontainer id="227" count="0,3" size="5,5" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualBaseTemplate">
+	<item group="NewCannedFood" prob="0.15"/>	
+	<item group="JunkFoodMod" prob="0.15"/>	
+	<item group="EmptyStoreShelf" prob="0.65"/>
+</lootcontainer>	
+
+<!--Deep Freezer -->
+<lootcontainer id="228" count="1,3" size="5,5" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualBaseTemplate">
+	<item group="FrozenFoodMod" prob="0.05"/>	
+	<item name="Ice Bags" count="1,5" prob="0.25"/>
+</lootcontainer>	
+
+
+</append>
+
+
+
+
+
+
+
+
+
+
+
+
+</configs>
+
+
+
