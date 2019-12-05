@@ -17,6 +17,9 @@
 
 <append xpath="/items">
 
+
+
+
 <item name="Jeremy's Salvage Wrench"> <!-- T2 Salvage -->
 	<property name="Tags" value="blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
