@@ -1,0 +1,7 @@
+<configs>
+	<set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']/entity[@name='invisibleAnimal']/@prob">3</set> <!-- default: 6 -->
+	<set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']/entity[@name='invisibleAnimal']/@prob">1.5</set> <!-- default: 3 -->
+	<set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']/entity[@name='invisibleAnimal']/@prob">1.5</set> <!-- default: 3 -->
+	<set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']/entity[@name='invisibleAnimal']/@prob">3</set> <!-- default: 6 -->
+	<set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']/entity[@name='invisibleAnimal']/@prob">3</set> <!-- default:6 -->
+</configs>

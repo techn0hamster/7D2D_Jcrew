@@ -141,7 +141,6 @@
 		<item name="modArmorHelmetLight" count="1" />
 		<item name="apparelBandana" count="1" />
 		<item name="apparelLongShirt" count="1" />
-		<item name="apparelLongShirt" count="1" />
 		<item name="apparelDenimShortsPants" count="1" />
 		<item name="apparelOveralls" count="1" />
 		<item name="apparelWornBoots" count="1" />
@@ -157,7 +156,6 @@
         <item name="meleeToolPickaxeSteel" count="1" loot_prob_template="GradeALoot" />
 		<item name="meleeToolSteelSetSchematic" count="1" />
         <item name="resourceForgedIron" count="15" />
-		<item name="resourceMetalPipe" count="15" />
 		<item name="thrownDynamite" count="10" />
 		<item name="thrownDynamiteSchematic" count="1" />
 		<item name="resourceForgedSteel" count="15" />
@@ -246,8 +244,7 @@
         <item name="medicalFirstAidKit" count="5" />
 		<item name="medicalSplint" count="2" />
         <item name="medicalPlasterCast" count="3" />
-		<item name="medicalBloodDrawKit" count="1" />
-        <item name="medicalBloodBag" count="1" />
+		 <item name="medicalBloodBag" count="1" />
 		<item name="drugHerbalAntibiotics" count="2" />
         <item name="drugAntibiotics" count="5" />
 		<item name="drugRedPill" count="1" />
@@ -268,7 +265,7 @@
 		<item name="drugAntibioticsSchematic" count="1" />
 		<item name="drugHerbalAntibioticsSchematic" count="1" />
 		<item name="chemistryStationSchematic"/>
-		<item name="gunTacticalAR" count="1" loot_prob_template="GradeALoot" />
+		<item name="gunSMG5" count="1" loot_prob_template="GradeALoot" />
 		<item name="ammo762mmBulletBall" count="50" />
         <item name="gunAK47Schematic" count="1" />
 		<item name="gunBowPrimitive" count="1" loot_prob_template="GradeALoot" />

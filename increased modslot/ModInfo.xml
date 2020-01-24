@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="increased modslot" />
+        <Description value="changes the max modslots from 1-4 ,to 1-6 on tier 1-6 items/gear." />
+        <Author value="Lam" />
+        <Version value="18.0" />
+    </ModInfo>
+</xml>

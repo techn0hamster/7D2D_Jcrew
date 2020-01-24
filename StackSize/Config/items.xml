@@ -1,0 +1,44 @@
+﻿<configs><!--
+<set xpath="/items/item/property[@name='Stacknumber']/@value">1000</set>
+
+<remove xpath="/items/item/property[@name='Stacknumber']"/>
+ <append xpath="/items/item" >
+<property name="Stacknumber" value="1000"/>
+</append>
+-->
+
+<set xpath="/items/item/property[@name='Stacknumber' and @value &gt; 2 and @value &lt; 1000 ]/@value">1000</set>
+
+<set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">30000</set>
+	<set xpath="/items/item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">30000</set>	
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='medicalBloodDrawKit']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='questMaster']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='candle']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">30000</set>
+	
+	
+	
+	<!-- RESSOURCES	-->
+	<set xpath="/items/item[@name='resourceWood']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='resourceCoal']/property[@name='Stacknumber']/@value">30000</set>
+	<!-- AMMONIONS	-->
+	<set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammo44MagnumBulletBall']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammoArrowExploding']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber']/@value">30000</set>
+<!-- CREATIONS -->
+<!--
+<set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">60000</set>
+-->
+</configs>
+
+

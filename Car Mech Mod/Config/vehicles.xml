@@ -9,9 +9,19 @@
 		<property name="velocityMax" value="50,125"/>
 	</append>
 
+	<append xpath="/vehicles/vehicle[contains(@name, 'vehicleMotorcycle')]">
+		<property name="velocityMax" value="100,200"/>
+	</append>
+
+
+<append xpath="/vehicles">
+
 	
 	
 	
+	
+	
+</append>	
 
 </configs>
 

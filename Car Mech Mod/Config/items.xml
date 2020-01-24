@@ -359,20 +359,97 @@
 </item>
 
 
+<item name="Ball Peen Hammer"> <!-- Polymers -->
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ToolBallPeenHammer"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5000"/> <!-- STK loot -->
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="Group" value="Tools/Traps"/>
+</item>
 
+<item name="Impact Wrench"> <!-- Polymers -->
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ToolImpactWrench"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5000"/> <!-- STK loot -->
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="Group" value="Tools/Traps"/>
+</item>
 
+<item name="Hex Socket"> <!-- Polymers -->
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ToolHexSocket"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5000"/> <!-- STK loot -->
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="Group" value="Tools/Traps"/>
+</item>
 
+<item name="Key Rake">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ToolPickKeyRake"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Weight" value="5"/>
+	<property name="Stacknumber" value="5000"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="UnlockedBy" value="perkGreatHeistComplete,perkLockPicking"/>
+	<property name="PickupJournalEntry" value="lockPickingTip"/>
+</item>
 
+<item name="Nuts And Bolts"> <!-- Polymers -->
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="NutsNBolts"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5000"/> <!-- STK loot -->
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="2"/>
+	<property name="EconomicBundleSize" value="100"/>
+	<property name="Group" value="Resources"/>
+</item>
 
+<item name="Bench Vice"> <!-- Polymers -->
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ToolBenchVice"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5000"/> <!-- STK loot -->
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="Group" value="Resources"/>
+</item>
 
-
-
-
-
-
-
-
-
+<item name="Wooden Toolbox"> <!-- Polymers -->
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ToolWoodenBox"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="5000"/> <!-- STK loot -->
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="Group" value="Resources"/>
+</item>
 
 
 

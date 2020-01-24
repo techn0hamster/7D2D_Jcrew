@@ -1,0 +1,9 @@
+<configs>
+		<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group" >
+			<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.333" tags="forgeCrafting"/>
+			<passive_effect name="CraftingTime" operation="perc_add" level="2,5" value="-0.5" tags="workbenchCrafting,cementMixerCrafting,tableSawCrafting"/>
+		</append>
+                <append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group" >
+                        <passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.5" tags="chemStationCrafting"/>
+                </append>
+</configs>

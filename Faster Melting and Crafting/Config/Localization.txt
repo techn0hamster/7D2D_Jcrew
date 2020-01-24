@@ -1,0 +1,5 @@
+﻿Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+perkAdvancedEngineeringDesc,progression,Perk,New,"Engineer advanced items such as workstations, electrical items and traps and craft items with them faster.",,,,,
+perkAdvancedEngineeringRank1LongDesc,progression,Perk,New,You are now a blacksmith and able to forge iron and other metal objects. Craft forges and craft items ALOT faster at forges.,,,,,
+perkAdvancedEngineeringRank2LongDesc,progression,Perk,New,"Your tinkering is proving useful in the apocalypse. Craft workbenches, table saws, and cement mixers, and craft items with them ALOT faster.",,,,,
+perkYeahScienceRank1LongDesc,progression,Perk,New,You have started on the path of science and are scholar. Craft chemistry stations and craft items with them ALOT faster.,,,,,

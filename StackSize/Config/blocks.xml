@@ -1,0 +1,10 @@
+<configs><!--
+<set xpath="/items/item/property[@name='Stacknumber']/@value">1000</set>
+-->
+
+<remove xpath="/blocks/block/property[@name='Stacknumber']"/>
+ <append xpath="/blocks/block" >
+<property name="Stacknumber" value="20000"/>
+</append>
+
+</configs>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+	- Maximum harvestable meat is assumed to be 50% of average adult weight.
+		- Without maxed Huntsman perk, only half of the meat is harvested (25% of average adult weight).
+	- One pound of meat is assumed to be equivalent to 2 units of raw meat (1/2 lb each).
+	- Base raw meat count is therefore 50% of average adult weight in lbs (rounded down).
+	- If male/female not identifiable, average of both used.
+	- Values are taken from google search direct answers or wikipedia (exact species are guessed).
+-->
+
+<configs>
+
+	<!-- =================================================================== -->
+	<!--                           Normal Animals                            -->
+	<!-- =================================================================== -->
+	
+	<!-- animalStag - default harvest = 30
+	White-tailed deer
+	Height: 2.6 – 3.3 ft. (Adult, At Shoulder)
+	Length: 3.1 – 7.2 ft.
+	Mass: Male: 150 lbs (Adult, In Summer), Female: 100 lbs (Adult, In Summer) -->
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">75</set>
+	
+	<!-- animalDoe - default harvest = 20
+	White-tailed deer
+	Height: 2.6 – 3.3 ft. (Adult, At Shoulder)
+	Length: 3.1 – 7.2 ft.
+	Mass: Male: 150 lbs (Adult, In Summer), Female: 100 lbs (Adult, In Summer) -->
+	<set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">50</set>
+	
+	<!-- animalRabbit - default harvest = 10
+	Antelope jackrabbit
+	Length: 16 – 24 in. (Adult, Without Tail)
+	Mass: 8.7 lbs (Adult) Encyclopedia of Life -->
+	<set xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">4</set>
+	
+	<!-- animalChicken - default harvest = 10
+	New Hampshire chicken (assumed female)
+	Mass: Male: 8.5 lbs (Adult), Female: 6.5 lbs (Adult -->
+	<set xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">3</set>
+	
+	<!-- animalBear - default harvest = 50
+	Grizzly bear
+	Height: 3.3 ft. (Adult, At Shoulder)
+	Length: 6.5 ft. (Adult)
+	Mass: Male: 600 lbs (Inland area population), Female: 290 – 440 lbs (Adult) -->
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">240</set>
+	
+	<!-- animalWolf - default harvest = 25
+	Wolf
+	Height: 2.2 – 2.7 ft. (Adult, At Shoulder)
+	Length: 4.5 – 6.5 ft. (Adult)
+	Mass: Male: 66 – 180 lbs (Adult), Female: 51 – 120 lbs (Adult) -->
+	<set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">50</set>
+	
+	<!-- animalSnake - default harvest = 10
+	Western diamondback rattlesnake
+	Mass: 3-6 or 15 lbs? assumed average of 8 lbs -->
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">4</set>
+	
+	<!-- animalBoar - default harvest = 30
+	Wild boar
+	Height: 1.8 – 4.1 ft. (Adult, At Shoulder)
+	Length: 3 – 6.6 ft. (Adult, Without Tail)
+	Mass: Male: 170 – 220 lbs (European population), Female: 130 – 180 lbs (European population) -->
+	<set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">90</set>
+	
+	<!-- =================================================================== -->
+	<!--                            Boss Animals                             -->
+	<!-- =================================================================== -->
+	
+	<!-- animalDireWolf - default harvest = 35
+	35/25 of animalWolf count -->
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">70</set>
+	
+	<!-- animalBossGrace - default harvest = 100
+	100/30 of animalBoar count -->
+	<set xpath="/entity_classes/entity_class[@name='animalBossGrace']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">300</set>
+	
+	<!-- =================================================================== -->
+	<!--                           Zombie Animals                            -->
+	<!-- =================================================================== -->
+	
+	<!-- animalZombieBear - default harvest = 7
+	7/50 of live bear count -->
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='foodRottingFlesh'][@tag='butcherHarvest']/@count">35</set>
+	
+	<!-- animalZombieVulture - default harvest = 3
+	1/3 of live chicken count -->
+	<set xpath="/entity_classes/entity_class[@name='animalZombieVulture']/drop[@name='foodRottingFlesh'][@tag='butcherHarvest']/@count">1</set>
+	
+	
+	<!-- animalZombieDog - default harvest = 4
+	4/25 live wolf count -->
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='foodRottingFlesh'][@tag='butcherHarvest']/@count">8</set>
+	
+	</configs>

@@ -3,6 +3,7 @@
 <item name="classKey">
 		<property name="Extends" value="resourceLockPick"/>
        <property name="HoldType" value="45"/>
+	   <property name="DescriptionKey" value="classKeyDesc"/>
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -40,7 +41,7 @@
         <property name="DescriptionKey" value="classSelectionDesc"/>
         <property name="Meshfile" value="Items/Misc/Book" />
         <property name="Material" value="Mpaper" />
-        <property name="HoldType" value="21" />
+		<property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property name="FuelValue" value="20" />
         <property name="Weight" value="20" />
