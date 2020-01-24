@@ -3,35 +3,6 @@
 <configs>
 
 
-	<remove xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']/entity[@name='invisibleAnimal']" />
-
-	<remove xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']/entity[@name='invisibleAnimal']" />
-	
-	<remove xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']/entity[@name='invisibleAnimal']" />
-
-	<remove xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']/entity[@name='invisibleAnimal']" />
-
-	<remove xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']/entity[@name='invisibleAnimal']" />
-
-
-
-	<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']">
-		<entity name="invisibleAnimal" prob=".25"/>
-	</append>
-	<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']">
-		<entity name="invisibleAnimal" prob=".25"/>
-	</append>
-	<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']">
-		<entity name="invisibleAnimal" prob=".25"/>
-	</append>
-	<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']">
-		<entity name="invisibleAnimal" prob=".25"/>
-	</append>
-	<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']">
-		<entity name="invisibleAnimal" prob=".25"/>
-	</append>
-
-
 	
 	
 </configs>

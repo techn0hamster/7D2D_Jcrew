@@ -2,13 +2,6 @@
 <configs>
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT2']">
-			<item name="Mossberg590A1" quality="1,5"/>
-			<item name="Vector" quality="1,5"/>
-			<item name="Beretta92" quality="1,5"  prob="0.2"/>
-			<item name="M82" quality="1,5"/>
-			<item name="M98" quality="1,5"/>
-			<item name="Miah's Remington M4A1" quality="1,5"/>
-			<item name="SR25" quality="1,5"/>
 			<item name="Jeremy's Salvage Wrench" quality="1,5" prob="0.2"/>		
 </append>
 
@@ -31,25 +24,11 @@
 <!-- the Jcrew List that will show on Traders -->
 <append xpath="/traders/trader_item_groups">
 	<trader_item_group name="JCrewWeaponSchematics" count="1,2">
-			<item name="Mossberg590A1Schematic" />
-			<item name="VectorSchematic" />
-			<item name="Beretta92Schematic"  prob="0.2"/>
-			<item name="M82Schematic"/>
-			<item name="M98Schematic"/>
-			<item name="Miah's Remington M4A1 Schematic"/>
-			<item name="SR25Schematic"/>
 			<item name="Jeremy's Salvage Wrench Schematic"/>				
 	</trader_item_group>
 </append>
 <append xpath="/traders/trader_item_groups">
 	<trader_item_group name="JCrewWeapons" count="1,2">
-			<item name="Mossberg590A1" quality="1,5"/>
-			<item name="Vector" quality="1,5"/>
-			<item name="Beretta92" quality="1,5"  prob="0.2"/>
-			<item name="M82" quality="1,5"/>
-			<item name="M98" quality="1,5"/>
-			<item name="Miah's Remington M4A1" quality="1,5"/>
-			<item name="SR25" quality="1,5"/>
 			<item name="Jeremy's Salvage Wrench" quality="1,5" prob="0.2"/>				
 	</trader_item_group>
 </append>
