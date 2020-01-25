@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+
+
+
+<!--
+<remove xpath="/recipes/recipe[@name='']"/>
+-->
+
+<remove xpath="/recipes/recipe[@name='vehicle4x4TruckAccessories']"/>
+<remove xpath="/recipes/recipe[@name='vehicle4x4TruckChassis']"/>
+<remove xpath="/recipes/recipe[@name='vehicle4x4TruckPlaceable']"/>
+<remove xpath="/recipes/recipe[@name='workbench']"/>
+<remove xpath="/recipes/recipe[@name='resourceGunPowderBundle']"/>
+
+
+<append xpath="/recipes">
+
+<recipe name="resourceGunPowderBundle" count="1" craft_time="2" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+	<ingredient name="resourceCoal" count="800"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="800"/>
+</recipe>
+
+
+<recipe name="workbench" count="1">
+	<ingredient name="woodTable" count="2"/>
+	<ingredient name="Impact Wrench" count="1"/>	
+	<ingredient name="Wooden Toolbox" count="1"/>
+	<ingredient name="Bench Vice" count="1"/>
+	<ingredient name="Nuts And Bolts" count="200"/>	
+</recipe>
+
+<recipe name="Bench Vice" count="1" craft_time="60">
+	<ingredient name="resourceScrapIron" count="80"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>	
+</recipe>
+
+<recipe name="woodTable" count="1" craft_time="60">
+	<ingredient name="resourceWood" count="80"/>
+	<ingredient name="resourceScrapIron" count="80"/>	
+</recipe>
+
+<recipe name="Wooden Toolbox" count="1" craft_time="60">
+	<ingredient name="resourceWood" count="80"/>
+	<ingredient name="resourceMetalPipe" count="1"/>
+</recipe>
+
+
+<recipe name="Impact Wrench" count="1" craft_time="35" tags="perkGreaseMonkey,workbenchCrafting">
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceElectricParts" count="30"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,3" value=".5,.5" tags="resourceMechanicalParts,resourceMetalPipe,resourceElectricParts,resourceSpring"/>
+	</effect_group>
+</recipe>
+
+
+
+<!-- 4x4 Accessories Update Mod -->
+<recipe name="vehicle4x4TruckAccessories" count="1" craft_time="120" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+	<ingredient name="resourceHeadlight" count="8"/>
+	<ingredient name="vehicleWheels" count="1"/>
+	<ingredient name="Car Frame" count="1"/>
+	<ingredient name="Car Axle" count="2"/>
+	<ingredient name="Car Muffler" count="2"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,3" value=".5,.5" tags="resourceMechanicalParts,resourceMetalPipe,resourceElectricParts,resourceSpring"/>
+	</effect_group>
+</recipe>
+<!-- 4x4 Chassis Update Mod -->
+<recipe name="vehicle4x4TruckChassis" count="1" craft_time="120" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+	<ingredient name="Car Trunk" count="1"/>
+	<ingredient name="Car Hood" count="1"/>
+	<ingredient name="Car Door" count="2"/>
+	<ingredient name="Car Seat" count="2"/>
+	<ingredient name="Car Transmission" count="1"/>	
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,3" value=".5,.5" tags="resourceMechanicalParts,resourceMetalPipe,resourceElectricParts,resourceSpring"/>
+	</effect_group>
+</recipe>
+<!-- Placeable Car Update -->
+<recipe name="vehicle4x4TruckPlaceable" count="1" craft_time="300" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="Impact Wrench" count="1"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+<!-- No impact -->
+<recipe name="vehicle4x4TruckPlaceable" count="1" craft_time="1200" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+
+
+
+
+
+</append>
+
+</configs>
+
+
+
+
+
+<!--
+ 
+
+-->
+
