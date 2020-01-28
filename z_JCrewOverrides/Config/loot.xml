@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <configs>
 
-<append xpath="lootcontainers/lootgroup[@name='schematicsWeaponsRare']">
-	<item name="Miah's Remington M4A1 Schematic"/>
-</append> 
+
 
 <!-- new weapons end -->
 
