@@ -47,7 +47,9 @@
         <property name="Class" value="DynamicMelee" />
         <property name="Sound_start" value="swoosh" />
         <property name="ToolCategory.harvestingTools" value=".5" param1="1" />
-        <!-- <property name="UsePowerAttackAnimation" value="true"/> -->
+        <property name="ToolCategory.Disassemble" value="1" param1="1" />
+        <property name="Sound_harvesting" value="wrench_harvest" />
+        <property name="Particle_harvesting" value="true" param1="metal" />
       </property>
       <effect_group name="meleeToolWrench">
         <passive_effect name="EntityDamage" operation="base_set" value="24" />
