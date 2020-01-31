@@ -6,6 +6,14 @@
 
 
 <configs>
+
+
+
+     <set xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/property[@name='Material']/@value">Mmetal_car0</set>	
+     <set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/property[@name='Material']/@value">Mmetal_car1</set>	
+     <set xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/property[@name='Material']/@value">Mmetal_car2</set>	
+
+
 	<!-- No Damage Stage One -->
 	<remove xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/drop[@name='resourceLeather']"/>
 	<remove xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/drop[@name='resourceScrapIron']"/>
