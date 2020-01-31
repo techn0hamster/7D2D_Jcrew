@@ -9,6 +9,7 @@
   <remove xpath="blocks/
   block[
   @name = 'terrStone'
+  or @name = 'terrGravel'
   or @name = 'terrAsphalt'
   or @name = 'terrConcrete'
   ]

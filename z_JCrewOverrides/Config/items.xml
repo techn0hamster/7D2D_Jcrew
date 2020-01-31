@@ -20,8 +20,8 @@
       <property name="Tags" value="blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic" />
       <property name="DisplayType" value="melee" />
       <property name="HoldType" value="29" />
-      <property name="CustomIcon" value="ToolPitWrench" />
-      <property name="Meshfile" value="#Other/Items?Tools/wrenchPrefab.prefab" />
+      <property name="CustomIcon" value="jeremysWrench" />      
+	  <property name="Meshfile" value="#@modfolder:Resources/HeavyWrench.unity3d?HeavyWrench_TH"/>
       <property name="Material" value="Mmetal" />
       <property name="RepairTools" value="resourceRepairKit" />
       <property name="DegradationBreaksAfter" value="false" />
@@ -126,16 +126,18 @@
     <item name="papawsSplodyBoomBoom">
       <!-- T2 demolitions (perk 5) -->
       <property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,miningExplosives" />
-      <property name="CustomIcon" value="thrownTimedCharge" />
+      <property name="CustomIcon" value="papawBoomBoom" />
       <property name="ItemTypeIcon" value="explosion" />
       <property name="DisplayType" value="ammoGrenadeTimedCharge" />
       <property name="Class" value="ItemClassTimeBomb" />
-      <property name="HoldType" value="62" />
-      <property name="Meshfile" value="#Other/Items?Weapons/Ranged/TimedCharge/timedChargePrefab.prefab" />	  
+	<property name="HoldType" value="20"/>	
+	  <!--<property name="Meshfile" value="#@modfolder:Resources/PapawBarrel.unity3d?Papaw_Barrel"/>
+	  <property name="Meshfile" value="#@modfolder:Resources/HeavyWrench.unity3d?HeavyWrench_TH"/> -->
+	  <property name="Meshfile" value="#@modfolder:Resources/PapawBarrel.unity3d?PapawBarrel"/>
 	  <property name="UnlockedBy" value="perkDemolitionsExpert"/>
       <property name="DropScale" value="1.8" />
       <property name="Material" value="Mmetal" />
-      <property name="Stacknumber" value="10" />
+      <property name="Stacknumber" value="25" />
       <property name="EconomicValue" value="41" />
       <property name="Weight" value="0" />
       <property name="Explosion.DamageBonus.tags" value="38" />
@@ -173,10 +175,10 @@
 		<passive_effect name="EntityDamage" operation="base_set" value="550"/>
 		<display_value name="dExDamageEntity" value="500"/>
 		<display_value name="dExRadius" value="6"/>
-		<display_value name="dFuseTime" value="4"/>
-		
+		<display_value name="dFuseTime" value="4"/>		
         <passive_effect name="HarvestCount" operation="base_set" value="2.5" tags="miningExplosives" />
-      </effect_group>
+		<triggered_effect name="onProjectileImpact" action="AddBuff" target="positionAOE" range="5" buff="buffInjuryKnockdown01"/>
+	</effect_group>
     </item>
   </append>
   <!-- RussianD00d a17 coversion Mod -->
