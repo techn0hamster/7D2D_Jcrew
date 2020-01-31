@@ -15,7 +15,8 @@
 
 
 <recipe name="papawsSplodyBoomBoom" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceScrapIron" count="50"/>
+	<ingredient name="resourceScrapIron" count="15"/>
+	<ingredient name="resourceScrapPolymers" count="35"/>
 	<ingredient name="resourceGunPowder" count="25"/>
 	<ingredient name="resourceElectricParts" count="5"/>
 	<ingredient name="resourceAcid" count="1"/>
