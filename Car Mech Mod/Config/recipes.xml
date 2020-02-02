@@ -6,23 +6,19 @@
 
 <!--
 <remove xpath="/recipes/recipe[@name='']"/>
+<remove xpath="/recipes/recipe[@name='workbench']"/>
+<remove xpath="/recipes/recipe[@name='resourceGunPowderBundle']"/>
 -->
 
 <remove xpath="/recipes/recipe[@name='vehicle4x4TruckAccessories']"/>
 <remove xpath="/recipes/recipe[@name='vehicle4x4TruckChassis']"/>
 <remove xpath="/recipes/recipe[@name='vehicle4x4TruckPlaceable']"/>
-<remove xpath="/recipes/recipe[@name='workbench']"/>
-<remove xpath="/recipes/recipe[@name='resourceGunPowderBundle']"/>
 
 
 <append xpath="/recipes">
 
-<recipe name="resourceGunPowderBundle" count="1" craft_time="2" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
-	<ingredient name="resourceCoal" count="800"/>
-	<ingredient name="resourcePotassiumNitratePowder" count="800"/>
-</recipe>
 
-
+<!--
 <recipe name="workbench" count="1">
 	<ingredient name="woodTable" count="2"/>
 	<ingredient name="Impact Wrench" count="1"/>	
@@ -30,6 +26,8 @@
 	<ingredient name="Bench Vice" count="1"/>
 	<ingredient name="Nuts And Bolts" count="200"/>	
 </recipe>
+
+-->
 
 <recipe name="Bench Vice" count="1" craft_time="60">
 	<ingredient name="resourceScrapIron" count="80"/>
