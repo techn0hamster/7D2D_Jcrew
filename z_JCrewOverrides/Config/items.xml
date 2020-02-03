@@ -9,11 +9,13 @@
 	<remove xpath="/items/item[@name='Pittsburgh Hoe']" />
 	<remove xpath="/items/item[@name='Pittsburgh Machete']" />
 	 -->
-  <remove xpath="/items/item[@name = &quot;gunJunkTurret&quot;]/property[@class = &quot;Action0&quot;]/property[@name = &quot;Sound_repeat&quot;]" />
-  <append xpath="/items/item[@name = &quot;gunJunkTurret&quot;]/property[@class = &quot;Action0&quot;]">
+  <remove xpath="/items/item[@name = 'gunJunkTurret']/property[@class = 'Action0']/property[@name = 'Sound_repeat']" />
+  <append xpath="/items/item[@name = 'gunJunkTurret']/property[@class = 'Action0']">
     <property name="Sound_loop" value="junkturret_fire" />
   </append>
-  <append xpath="/items/item[@name = &quot;gunJunkTurret&quot;]/property[@name=&quot;Tags&quot;]/@value">,fireRate</append>
+  <append xpath="/items/item[@name = 'gunJunkTurret']/property[@name='Tags']/@value">,fireRate</append>
+  
+  
   <append xpath="/items">
     <item name="Jeremy's Salvage Wrench">
       <!-- T2 Salvage -->
@@ -33,8 +35,11 @@
       <property class="Action0">
         <property name="Class" value="DynamicMelee" />
         <property name="Sound_start" value="swoosh" />
+		
         <property name="ToolCategory.harvestingTools" value=".5" param1="1" />
         <property name="ToolCategory.Disassemble" value="1" param1="1" />
+		
+		
         <property name="Sound_harvesting" value="wrench_harvest" />
         <property name="Particle_harvesting" value="true" param1="metal" />
         <property name="UseGrazingHits" value="true" />
@@ -76,7 +81,36 @@
         <passive_effect name="DamageModifier" operation="perc_add" value="-.25" tags="wood" />
         <passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="earth" />
         <passive_effect name="DamageModifier" operation="perc_add" value="-.25" tags="stone" />
-        <passive_effect name="HarvestCount" operation="base_set" value="2.5" tags="salvageHarvest" />
+		
+        <passive_effect name="DamageModifier" operation="perc_add" value="-.25" tags="stone" />
+        <passive_effect name="HarvestCount" operation="base_set" value="1.1" tags="salvageHarvest" />
+		
+		
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" />
+		
+		
+		<passive_effect name="DamageModifier" operation="perc_add" value=".15,2.5" tags="perkSalvageOperations" />
+		
+		<passive_effect name="DamageModifier" operation="perc_add" value=".25" tags="carMaster2">
+			<requirement name="ProgressionLevel" progression_name="perkSalvageOperations" operation="GTE" value="5"/>
+		</passive_effect>
+		
+		
+		<!-- Don't Allow Harvest Points if Skill too Low-->
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="carMaster0">
+			<requirement name="ProgressionLevel" progression_name="perkSalvageOperations" operation="GTE" value="1"/>
+		</passive_effect>
+		
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="carMaster1">
+			<requirement name="ProgressionLevel" progression_name="perkSalvageOperations" operation="GTE" value="3"/>
+		</passive_effect>
+		
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="carMaster2">
+			<requirement name="ProgressionLevel" progression_name="perkSalvageOperations" operation="GTE" value="5"/>
+		</passive_effect>
+		
+		
+		
       </effect_group>
       <effect_group name="Power Attack">
         <passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary" />

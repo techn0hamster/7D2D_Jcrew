@@ -63,7 +63,7 @@
 		<property name="stepsound" value="metal"/>
 		<property name="stability_glue" value="300"/>
 		<property name="Mass" type="int" value="20"/>
-		<property name="MaxDamage" value="1500"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Experience" value="2"/>
 	</material>	
 	<material id="Mmetal_car1">
@@ -74,7 +74,7 @@
 		<property name="stepsound" value="metal"/>
 		<property name="stability_glue" value="300"/>
 		<property name="Mass" type="int" value="20"/>
-		<property name="MaxDamage" value="3000"/>
+		<property name="MaxDamage" value="1500"/>
 		<property name="Experience" value="2"/>
 	</material>	
 	<material id="Mmetal_car2">
@@ -85,7 +85,7 @@
 		<property name="stepsound" value="metal"/>
 		<property name="stability_glue" value="300"/>
 		<property name="Mass" type="int" value="20"/>
-		<property name="MaxDamage" value="5000"/>
+		<property name="MaxDamage" value="3000"/>
 		<property name="Experience" value="2"/>
 	</material>	
 	
